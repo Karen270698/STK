@@ -1,4 +1,4 @@
-﻿* {
+* {
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -757,30 +757,56 @@ q {
 /*--------------------*/
 .block-popup{
   position: fixed;
-  z-index: 300;
-  background: #fff;
-  width: 15%;
-  height: 35%;
-  top: 50%;
-  right: -8%;
-  transform: translate(-50%, -50%);
+  z-index: 45;
+  background: rgb(255 255 255);;
+  width: 345px;
+  height: 480px;
+  top: 25%;
+  right: 0%;
+  /* transform: translate(-50%, -50%); */
   border-radius: 5px;
   border: 1px solid #ccc;
-  padding: 10px;
-  box-shadow: 0 12px 20px -10px;
+  box-shadow: -5px 5px 20px -10px;
   text-align: center;
   display: none;
 }
-.block-popup span{
+.block-popup img {
+    width: 100%;
+    height: 100%;
+}
+.block-popup span {
     position: absolute;
-    font-size: 32px;
+    font-size: 38px;
     font-weight: 600;
     line-height: 0.5;
-    width: 23px;
+    width: 22px;
     height: 22px;
-    top: 5px;
-    right: 5px;
+    top: 8px;
+    right: 8px;
     cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+.block-popup span:hover {
+    transform: scale(1.1);
+    color: rgb(199, 0, 0);
+}
+.block-popup button {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    background: #ffa81d;
+    border: none;
+    border-radius: 3px;
+    bottom: 8px;
+    left: 12px;
+    width: 125px;
+    height: 35px;
+    transition: all 0.2s ease 0s;
+}
+.block-popup button:hover {
+    transform: scale(1.01);
+    box-shadow: 0 1px 5px 0 gray ;
 }
     /*--------------------------------Media----------------------------------*/
 
