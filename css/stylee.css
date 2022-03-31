@@ -35,7 +35,7 @@ hr {
 .container__slide {
     width: 100%;
     background: transparent;
-    margin: 135px auto 10px;
+    margin: 130px auto 10px;
 }
 /* стили основного контейнера слайдера */
 .slider {
@@ -761,7 +761,7 @@ q {
   background: rgb(255 255 255);;
   width: 345px;
   height: 480px;
-  top: 25%;
+  top: 130px;
   right: 0%;
   /* transform: translate(-50%, -50%); */
   border-radius: 5px;
@@ -795,18 +795,17 @@ q {
     font-size: 18px;
     font-weight: 600;
     color: black;
-    background: #ffa81d;
+    background: #e3e3e3;
     border: none;
     border-radius: 3px;
     bottom: 8px;
     left: 12px;
     width: 125px;
     height: 35px;
-    transition: all 0.2s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 .block-popup button:hover {
-    transform: scale(1.01);
-    box-shadow: 0 1px 5px 0 gray ;
+    box-shadow: 0 1px 3px 0 gray ;
 }
     /*--------------------------------Media----------------------------------*/
 
