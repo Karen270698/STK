@@ -1,0 +1,34 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+/*Section*/
+
+.section {
+    padding: 0 0 14px 0;
+    background: white;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+/*Container*/
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background: transparent;
+    margin: 150px auto 0;
+}
+h2 {
+    font-family: 'robotoregular';
+    margin: 0;
+}
+
+.akcia__item img {
+    float: left;
+    padding: 0 25px 10px 0;
+}
+
+.akcia__item p {
+    font-size: 18px;
+}
