@@ -1,4 +1,4 @@
-﻿* {
+* {
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -761,7 +761,7 @@ q {
   /* background: rgb(255 255 255);; */
   width: 345px;
   height: 480px;
-  top: 130px;
+  top: 25%;
   right: 0%;
   /* transform: translate(-50%, -50%); */
   border-radius: 5px;
@@ -790,10 +790,12 @@ q {
     transform: scale(1.1);
     color: rgb(199, 0, 0);
 }
-.block-popup button {
+.block-popup a {
     position: absolute;
     font-size: 18px;
     font-weight: 600;
+    text-decoration: none;
+    padding: 3px 0;
     color: black;
     background: #e3e3e3;
     border: none;
@@ -801,10 +803,9 @@ q {
     bottom: 6px;
     left: 25px;
     width: 125px;
-    height: 35px;
     transition: all 0.3s ease 0s;
 }
-.block-popup button:hover {
+.block-popup a:hover {
     box-shadow: 0 1px 3px 0 gray ;
 }
     /*--------------------------------Media----------------------------------*/
