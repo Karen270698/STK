@@ -870,6 +870,10 @@ q {
     .tarif {
         margin: 55px 40px;
     }
+    .block-popup {
+    width: 300px;
+    height: 435px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -935,6 +939,14 @@ q {
 
     .author {
         left: 30%;
+    }
+    .block-popup {
+    width: 270px;
+    height: 395px;
+    }
+    .block-popup a {
+    left: 30px;
+    width: 115px;
     }
 }
 
@@ -1030,5 +1042,14 @@ q {
         width: 180px;
         font-size: 10px;
         left:30%;
+    }
+    .block-popup {
+    width: 220px;
+    height: 325px;
+    }
+    .block-popup a {
+    left: 17px;
+    width: 100px;
+    padding: 0;
     }
 }
