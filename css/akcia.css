@@ -38,8 +38,8 @@ h2 {
     margin: 0;
 }
 .akcia__text {
-    margin: 20px 0 0;
-    font-size: 24px;
+    margin: 0;
+    font-size: 26px;
     font-family: 'robotobold';
     color: rgb(78, 78, 78);
 }
@@ -89,10 +89,54 @@ h2 {
     font-family: 'robotoregular';
     color:rgb(78, 78, 78);
 }
+.akcia__order {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.obl__oldprice {
+    position: relative;
+    color: gray;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'robotobold';
+}
+.obl__oldprice span {
+    position: absolute;
+    top: 40%;
+    transform: rotate(172deg);
+    content: "";
+    width: 90px;
+    height: 3px;
+    background-color: red;
+}
+.obl__price {
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'robotobold';
+}
+.obl__button {
+    text-decoration: none;
+    background-color: #cf0000;
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    padding:2px 8px;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+.obl__button:hover {
+    box-shadow: 0 1px 5px 0 black;
+}
 
 /*------------Media----------*/
 
 @media screen and (max-width: 1280px) {
+    h2 {
+    margin: 0px 10px;
+    }
     .container {
         margin: 180px auto 0;
     }
@@ -151,4 +195,3 @@ h2 {
         font-size: 18px;
     }
 }
-

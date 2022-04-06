@@ -156,7 +156,25 @@ h4 {
     font-size: 16px;
     font-family: 'robotoregular';
 }
-.obl__click p {
+.obl__oldprice {
+    position: relative;
+    color: gray;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'robotobold';
+}
+.obl__oldprice span {
+    position: absolute;
+    top: 40%;
+    transform: rotate(172deg);
+    content: "";
+    width: 90px;
+    height: 3px;
+    background-color: red;
+}
+.obl__price {
+    margin: 0 0 16px;
     text-align: center;
     font-size: 22px;
     font-family: 'robotobold';
@@ -887,7 +905,10 @@ img.hover-shadow {
     .obl__punkt {
         font-size: 16px;
     }
-    .obl__click p {
+    .obl__oldprice span {
+    width: 82px;
+    }
+    .obl__price, .obl__oldprice {
         font-size: 20px;
     }
     .obl__button {

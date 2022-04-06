@@ -1,4 +1,4 @@
-* {
+﻿* {
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -776,11 +776,11 @@ q {
 }
 .block-popup span {
     position: absolute;
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 600;
     line-height: 0.5;
-    width: 22px;
-    height: 22px;
+    width: 26px;
+    height: 26px;
     top: 8px;
     right: 8px;
     cursor: pointer;
@@ -797,7 +797,7 @@ q {
     text-decoration: none;
     padding: 3px 0;
     color: white;
-    background: #999999;
+    background: #525252;
     border: none;
     border-radius: 3px;
     bottom: 6px;
@@ -806,7 +806,7 @@ q {
     transition: all 0.3s ease 0s;
 }
 .block-popup a:hover {
-    background: #525252;
+    background: #363636;
     box-shadow: 0 1px 3px 0 rgb(54, 54, 54) ;
 }
     /*--------------------------------Media----------------------------------*/
