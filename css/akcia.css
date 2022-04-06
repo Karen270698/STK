@@ -8,7 +8,6 @@
     background: white;
     background-size: cover;
     background-attachment: fixed;
-    height: 100%;
 }
 
 /*Container*/
@@ -24,11 +23,59 @@ h2 {
     margin: 0;
 }
 
-.akcia__item img {
-    float: left;
-    padding: 0 25px 10px 0;
+.akcia__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0 0;
 }
+.akcia__info {
+    width: 50%;
+}
+.akcia__title {
+    font-size: 36px;
+    font-family: 'robotobold';
+    margin: 0;
+}
+.akcia__text {
+    margin: 20px 0 0;
+    font-size: 24px;
+    font-family: 'robotobold';
+    color: rgb(78, 78, 78);
+}
+.akcia__suptext {
+    font-size:12px;
+    margin: 0 0 20px;
+}
+.akcia__tech {
+    display: flex;
+    justify-content: space-between;
+}
+.tech {
+    border: 1px solid #d5d5d5;
+    box-shadow: 0px 0px 6px 0 grey;
+    padding: 16px;
+    width: 40%;
+}
+.tech h3 {
+    margin: 0;
+    font-size: 22px;
+}
+.tech ul {
+    padding-inline-start: 22px;
+}
+.akcia__benefits {
+    display: flex;
+    justify-content: space-between;
+    margin: 68px 0 38px;
 
-.akcia__item p {
-    font-size: 18px;
+}
+.benefits {
+    text-align: center;
+    width: 33%;
+}
+.benefits p {
+    font-size: 22px;
+    font-family: 'robotoregular';
+    color:rgb(78, 78, 78);
 }
