@@ -45,7 +45,8 @@ h2 {
 }
 .akcia__suptext {
     font-size:12px;
-    margin: 0 0 20px;
+    margin: 0 0 32px;
+    font-family: 'robotoregular';
 }
 .akcia__tech {
     display: flex;
@@ -53,16 +54,25 @@ h2 {
 }
 .tech {
     border: 1px solid #d5d5d5;
-    box-shadow: 0px 0px 6px 0 grey;
+    box-shadow: 0px 0px 16px 0 grey;
     padding: 16px;
     width: 40%;
 }
 .tech h3 {
     margin: 0;
     font-size: 22px;
+    font-family: 'robotoregular';
 }
 .tech ul {
-    padding-inline-start: 22px;
+    padding-inline-start: 20px;
+    font-family: 'robotoregular';
+}
+.tech li {
+    /* padding: 3px 0; */
+    color: orangered;
+}
+.tech li p {
+    color: rgb(0, 0, 0);
 }
 .akcia__benefits {
     display: flex;
@@ -78,4 +88,63 @@ h2 {
     font-size: 22px;
     font-family: 'robotoregular';
     color:rgb(78, 78, 78);
+}
+
+/*------------Media----------*/
+
+@media screen and (max-width: 1280px) {
+    .container {
+        margin: 180px auto 0;
+    }
+    .akcia__item {
+        margin: 25px 20px 0;
+    }
+    .akcia__benefits {
+    margin: 68px 20px 38px;
+}
+    .akcia__img img {
+        width: 450px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .akcia__item {
+        flex-direction: column;
+    }
+    .akcia__info {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+    margin: 100px auto 0;
+    }
+    .akcia__info {
+    width: 100%;
+    }
+    .akcia__img img {
+    width: 400px;
+    }
+    .akcia__benefits {
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .benefits {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .akcia__img img {
+    width: 320px;
+    }
+    .akcia__tech {
+        flex-direction: column;
+    }
+    .tech {
+        width: 90%;
+        margin: 0 0 32px;
+    }
+    .akcia__benefits {
+    margin: 50px 20px 30px;
+    }
 }
