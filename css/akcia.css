@@ -78,10 +78,9 @@ h2 {
     margin: 32px 0 0;
     font-size: 18px;
     font-family: 'robotoregular';
-    text-align: center;
 }
-.akcia__import a {
-    color: orangered;
+.akcia__import img {
+    width: 20px;
 }
 .akcia__benefits {
     display: flex;
