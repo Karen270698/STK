@@ -74,6 +74,15 @@ h2 {
 .tech li p {
     color: rgb(0, 0, 0);
 }
+.akcia__import {
+    margin: 32px 0 0;
+    font-size: 18px;
+    font-family: 'robotoregular';
+    text-align: center;
+}
+.akcia__import a {
+    color: orangered;
+}
 .akcia__benefits {
     display: flex;
     justify-content: space-between;
