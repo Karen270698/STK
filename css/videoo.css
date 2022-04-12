@@ -171,7 +171,7 @@ h4 {
     font-family: 'robotoregular';
 }
 
-.obl__oldprice {
+/* .obl__oldprice {
     position: relative;
     color: gray;
     margin: 0;
@@ -179,7 +179,6 @@ h4 {
     font-size: 22px;
     font-family: 'robotobold';
 }
-
 .obl__oldprice span {
     position: absolute;
     top: 40%;
@@ -188,8 +187,7 @@ h4 {
     width: 90px;
     height: 3px;
     background-color: red;
-}
-
+} */
 .obl__price {
     margin: 0 0 16px;
     text-align: center;
@@ -970,10 +968,9 @@ img.hover-shadow {
         font-size: 16px;
     }
 
-    .obl__oldprice span {
-        width: 82px;
-    }
-
+    /* .obl__oldprice span {
+    width: 82px;
+    } */
     .obl__price,
     .obl__oldprice {
         font-size: 20px;
