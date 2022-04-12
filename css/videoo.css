@@ -2,18 +2,27 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
+
 h2 {
     font-family: 'robotobold';
 }
+
 h3 {
     font-family: 'robotoregular';
 }
+
 h4 {
     font-family: 'robotoregular';
 }
+
 /*Section*/
 
 .section {
@@ -63,21 +72,21 @@ h4 {
     padding-top: 60px;
 }
 
-    .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: white;
-        display: block;
-        -webkit-transition: 0.3s;
-        -o-transition: 0.3s;
-        transition: 0.3s;
-        border-top: 1px solid black;
-    }
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    border-top: 1px solid black;
+}
 
-        .sidenav a:hover {
-            background-color: black;
-        }
+.sidenav a:hover {
+    background-color: black;
+}
 
 .closebtn:hover {
     background-color: transparent !important;
@@ -129,6 +138,7 @@ h4 {
     display: block;
     padding: 20px;
 }
+
 /*-------------*/
 
 .obl__video {
@@ -137,10 +147,12 @@ h4 {
     box-shadow: 0px 3px 5px 0px gray;
     flex-direction: column;
 }
+
 .obl__video h3 {
     margin: 10px 30px 0;
     font-family: 'robotoregular';
 }
+
 .obl__card {
     display: flex;
     width: 95%;
@@ -148,15 +160,18 @@ h4 {
     align-items: center;
     justify-content: space-between;
 }
+
 .obl__card img {
     width: 28%;
 }
+
 .obl__punkt {
     height: fit-content;
     font-size: 16px;
     font-family: 'robotoregular';
 }
-/* .obl__oldprice {
+
+.obl__oldprice {
     position: relative;
     color: gray;
     margin: 0;
@@ -164,6 +179,7 @@ h4 {
     font-size: 22px;
     font-family: 'robotobold';
 }
+
 .obl__oldprice span {
     position: absolute;
     top: 40%;
@@ -172,13 +188,15 @@ h4 {
     width: 90px;
     height: 3px;
     background-color: red;
-} */
+}
+
 .obl__price {
     margin: 0 0 16px;
     text-align: center;
     font-size: 22px;
     font-family: 'robotobold';
 }
+
 .obl__button {
     text-decoration: none;
     background-color: orange;
@@ -189,6 +207,7 @@ h4 {
     border-radius: 3px;
     transition: all 0.2s;
 }
+
 .obl__button:hover {
     box-shadow: 0 1px 5px 0 black;
 }
@@ -205,39 +224,48 @@ h4 {
     align-items: center;
     margin: 50px 0;
 }
+
 .lvimg img {
     width: 480px;
 }
+
 .lvintpop {
     width: 48%;
 }
+
 .intpop {
     margin: 50px 0;
 }
+
 .intup {
     display: flex;
     flex-direction: row;
     margin: 10px 0;
     align-items: center;
 }
+
 .subintup {
     display: flex;
     flex-direction: column;
 }
+
 .intup img {
     width: 35px;
     height: 35px;
     margin: 0 10px;
 }
+
 .subintup p {
     margin: 0;
 }
+
 .intdown {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 15px 0 0;
 }
+
 .subintdown {
     display: flex;
     flex-direction: column;
@@ -245,22 +273,27 @@ h4 {
     width: 22%;
     text-align: center;
 }
+
 .subintdown img {
     width: 75px;
 }
+
 .subintdown p {
     font-size: 14px;
     line-height: 16px;
     font-family: 'robotoregular';
 }
+
 .arw img {
     width: 80px;
 }
+
 .tf {
     display: flex;
     margin: 10px 0;
     flex-direction: column;
 }
+
 .inttf {
     display: flex;
     justify-content: space-between;
@@ -271,9 +304,11 @@ h4 {
     padding: 10px 15px;
     line-height: 15px;
 }
+
 .xit {
-    border:2px solid orangered;
+    border: 2px solid orangered;
 }
+
 .xittx {
     position: absolute;
     right: -6%;
@@ -282,18 +317,20 @@ h4 {
     background: orangered;
     padding: 2px 15px;
 }
+
 .subinttf p {
     margin: 3px 0 0 0;
     font-size: 16px;
     font-family: 'robotoregular';
 }
+
 /*--------Videonab----------*/
 
 .compl__title {
     font-size: 28px;
     font-family: 'robotobold';
     margin: 30px 0 -30px 0;
-    padding:0 15px;
+    padding: 0 15px;
 }
 
 .part {
@@ -324,15 +361,15 @@ h4 {
     border-radius: 3px;
 }
 
-    .tarif img {
-        width: 300px;
-        border-radius: 3px;
-    }
+.tarif img {
+    width: 300px;
+    border-radius: 3px;
+}
 
-    .tarif:hover {
-        -webkit-transform: scale3d(1.03, 1.03, 1.03);
-        transform: scale3d(1.03, 1.03, 1.03);
-    }
+.tarif:hover {
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+}
 
 /* Стили для подложки */
 
@@ -369,7 +406,8 @@ h4 {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    z-index: 51; /* Должен быть выше чем у подложки*/
+    z-index: 51;
+    /* Должен быть выше чем у подложки*/
     /*  Побочные стили   */
     -webkit-box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
     box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
@@ -383,13 +421,13 @@ h4 {
 }
 
 
-    /* Стили для активных классов подложки и окна */
+/* Стили для активных классов подложки и окна */
 
-    .modal.active,
-    .overlay.active {
-        background: #2b2b2bcc;
-        visibility: visible;
-    }
+.modal.active,
+.overlay.active {
+    background: #2b2b2bcc;
+    visibility: visible;
+}
 
 
 /* Стили для кнопки закрытия */
@@ -428,13 +466,13 @@ h4 {
     background-color: #5ab5f4;
     color: #fff;
     border-radius: 3px;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
-    .js-open-modal:hover {
-        background: #fff000;
-        color: black;
-    }
+.js-open-modal:hover {
+    background: #fff000;
+    color: black;
+}
 
 /*------------------------*/
 .vid {
@@ -471,21 +509,21 @@ h4 {
     flex-direction: column;
 }
 
-    .vid__pdf a {
-        background: #008e04;
-        width: max-content;
-        font-size: 18px;
-        font-family: 'robotoregular';
-        text-decoration: none;
-        color: white;
-        padding: 8px;
-        border-radius: 3px;
-    }
+.vid__pdf a {
+    background: #008e04;
+    width: max-content;
+    font-size: 18px;
+    font-family: 'robotoregular';
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+}
 
-        .vid__pdf a:hover {
-            background: #ffeb00;
-            color: black;
-        }
+.vid__pdf a:hover {
+    background: #ffeb00;
+    color: black;
+}
 
 #form_161856_1 {
     width: 800px;
@@ -494,6 +532,7 @@ h4 {
 #form_161903_1 {
     width: 800px;
 }
+
 /*---------Novosti--------*/
 .nwscroll {
     display: block;
@@ -519,17 +558,18 @@ h4 {
     transition: 0.4s;
 }
 
-    .active, .accordion:hover {
-        background-color: #9fc1e6;
-    }
+.active,
+.accordion:hover {
+    background-color: #9fc1e6;
+}
 
-    .accordion:after {
-        content: '\002B';
-        color: #777;
-        font-weight: bold;
-        float: right;
-        margin-left: 5px;
-    }
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
 
 /*.active:after {
     content: "\2212";
@@ -559,16 +599,16 @@ h4 {
     transition: max-height 0.2s ease-out;
 }
 
-    .panel p {
-        font-size: 20px;
-        margin: 0 0 20px 0;
-    }
+.panel p {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
 
-    .panel img {
-        width: 220px;
-        height: auto;
-        margin: 5px;
-    }
+.panel img {
+    width: 220px;
+    height: auto;
+    margin: 5px;
+}
 
 /*---------------------------*/
 
@@ -604,10 +644,10 @@ h4 {
     opacity: 0.6;
 }
 
-    .active,
-    .demo:hover {
-        opacity: 1;
-    }
+.active,
+.demo:hover {
+    opacity: 1;
+}
 
 img.hover-shadow {
     -webkit-transition: 0.3s;
@@ -680,9 +720,9 @@ img.hover-shadow {
     transition: 0.2s;
 }
 
-    .pdf__text:hover {
-        color: #ff4700;
-    }
+.pdf__text:hover {
+    color: #ff4700;
+}
 
 /*--------------------------------Media----------------------------------*/
 
@@ -690,6 +730,7 @@ img.hover-shadow {
     .tablink {
         font-size: 26px
     }
+
     .inttf {
         width: 65%;
     }
@@ -699,15 +740,19 @@ img.hover-shadow {
     .tablink {
         font-size: 24px;
     }
+
     .inttf {
         width: 75%;
     }
+
     .lvintpop {
         width: 55%;
     }
+
     .lvimg img {
         width: 380px;
     }
+
     .tabcontent {
         padding: 60px 20px 50px;
     }
@@ -716,9 +761,11 @@ img.hover-shadow {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
+
     .vid__img {
         height: 220px;
     }
+
     .vid__hb {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -760,9 +807,9 @@ img.hover-shadow {
         flex-wrap: wrap;
     }
 
-        .vid__pdf a {
-            margin: 5px 20px;
-        }
+    .vid__pdf a {
+        margin: 5px 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -781,18 +828,24 @@ img.hover-shadow {
     .container {
         margin: 110px auto 0;
     }
+
     .obl__video {
         width: fit-content;
     }
+
     .obl__card {
         flex-direction: column;
     }
+
     .obl__card img {
         width: 50%;
     }
+
     .obl__click {
         margin: 0 0 20px;
-    }/*
+    }
+
+    /*
     .video__act {
         padding:0 8px;
     }
@@ -828,34 +881,43 @@ img.hover-shadow {
         font-size: 16px;
         padding: 5px;
     }
+
     .intdown {
         flex-direction: column;
         align-items: center;
     }
+
     .subintdown {
         width: 75%;
     }
+
     .subintdown p {
         font-size: 16px;
         font-family: 'robotoregular';
         line-height: 18px;
     }
+
     .subintdown img {
         width: 100px;
     }
+
     .arw img {
         transform: rotate(90deg);
     }
+
     .lvsect {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .lvintpop {
         width: 100%;
     }
+
     .lvimg img {
         width: 75%;
     }
+
     .inttf {
         width: 60%;
     }
@@ -884,9 +946,9 @@ img.hover-shadow {
         max-width: 250px;
     }
 
-        .tarif img {
-            width: 250px;
-        }
+    .tarif img {
+        width: 250px;
+    }
 
     .modal__title {
         font-size: 30px;
@@ -899,30 +961,39 @@ img.hover-shadow {
     .modal__cross {
         font-size: 26px;
     }
+
     .obl__card img {
         width: 65%;
     }
+
     .obl__punkt {
         font-size: 16px;
     }
-    /* .obl__oldprice span {
-    width: 82px;
-    } */
-    .obl__price, .obl__oldprice {
+
+    .obl__oldprice span {
+        width: 82px;
+    }
+
+    .obl__price,
+    .obl__oldprice {
         font-size: 20px;
     }
+
     .obl__button {
         font-size: 20px;
     }
+
     .vid__text {
         font-size: 16px;
         width: 160px;
     }
+
     .vid__img {
         width: 150px;
         height: 115px;
         margin: -20px 0 0px;
     }
+
     .vid__hb {
         width: 320px;
     }
@@ -943,24 +1014,30 @@ img.hover-shadow {
         margin: 5px 3px;
         font-size: 12px;
     }
+
     .subintup p {
         font-size: 14px;
     }
+
     .subintdown p {
         font-size: 14px;
         line-height: 16px;
         margin: 0;
     }
+
     .subintdown {
         margin: 0 0 10px;
     }
+
     .lvimg img {
         width: 100%;
     }
+
     .inttf {
         width: 75%;
     }
 }
+
 @media screen and (max-width: 320px) {
     .inttf {
         width: 75%;
