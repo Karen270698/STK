@@ -64,6 +64,7 @@ body {
 }
 .header__menu {
     margin:auto;
+    user-select: none;
 }
 
 .header__list li{
