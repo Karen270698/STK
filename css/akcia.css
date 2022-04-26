@@ -9,6 +9,7 @@
     background: white;
     background-size: cover;
     background-attachment: fixed;
+    min-height: 100%;
 }
 
 /*Container*/
@@ -25,187 +26,45 @@ h2 {
     margin: 0;
 }
 
-.line {
-    box-shadow: 0px 0px 8px 4px #b2b2b2;
-    height: 1px;
-    background: black;
-    border: none;
-    margin: 50px 0;
-}
-
-/*--------Akcia-1--------*/
-.akciaone__item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 25px 0 0;
-}
-
-.akciaone__info {
-    width: 50%;
-}
-
-.akciaone__title {
-    font-size: 36px;
-    font-family: 'robotobold';
-    margin: 0;
-}
-
-.akciaone__text {
-    margin: 0;
-    font-size: 26px;
-    font-family: 'robotobold';
-    color: rgb(78, 78, 78);
-}
-
-.akciaone__suptext {
-    font-size: 12px;
-    margin: 0 0 32px;
-    font-family: 'robotoregular';
-}
-
-.akciaone__tech {
-    display: flex;
-    justify-content: space-between;
-}
-
-.tech {
-    border: 1px solid #d5d5d5;
-    box-shadow: 0px 0px 16px 0 grey;
-    padding: 16px;
-    width: 40%;
-}
-
-.tech h3 {
-    margin: 0;
-    font-size: 22px;
-    font-family: 'robotoregular';
-}
-
-.tech ul {
-    padding-inline-start: 20px;
-    font-family: 'robotoregular';
-}
-
-.tech li {
-    /* padding: 3px 0; */
-    color: orangered;
-}
-
-.tech li p {
-    color: rgb(0, 0, 0);
-}
-
-.akciaone__import {
+.akcii {
     margin: 32px 0 0;
-    font-size: 18px;
-    font-family: 'robotoregular';
-}
-
-.akciaone__import img {
-    width: 20px;
-}
-
-.akciaone__benefits {
     display: flex;
-    justify-content: space-between;
-    margin: 68px 0 38px;
-
 }
 
-.benefits {
+.akcii__item {
+    margin: 0 50px 0 0;
+    width: 320px;
+    height: 480px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 20%),
+        0 4px 6px rgb(0 0 0 / 20%);
+    transition: box-shadow .3s,
+        -webkit-box-shadow .3s;
+    border-radius: 12px;
     text-align: center;
-    width: 33%;
-}
-
-.benefits p {
-    font-size: 22px;
-    font-family: 'robotoregular';
-    color: rgb(78, 78, 78);
-}
-
-.akciaone__order {
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
-}
-
-.obl__oldprice {
-    position: relative;
-    color: gray;
-    margin: 0;
-    text-align: center;
-    font-size: 22px;
-    font-family: 'robotobold';
-}
-
-.obl__oldprice span {
-    position: absolute;
-    top: 40%;
-    transform: rotate(172deg);
-    content: "";
-    width: 90px;
-    height: 3px;
-    background-color: red;
-}
-
-.obl__price {
-    margin: 0;
-    text-align: center;
-    font-size: 22px;
-    font-family: 'robotobold';
-}
-
-.obl__button {
     text-decoration: none;
-    background-color: #cf0000;
-    color: white;
-    font-size: 26px;
-    font-weight: 700;
-    padding: 2px 8px;
-    border-radius: 3px;
-    transition: all 0.2s;
 }
 
-.obl__button:hover {
-    box-shadow: 0 1px 5px 0 black;
+.akcii__item:hover {
+    box-shadow: 0 4px 12px rgb(0 0 0 / 20%),
+        0 16px 20px rgb(0 0 0 / 20%);
 }
 
-/*--------Akcia-2--------*/
-.akciatwo__item {
-    display: flex;
-    justify-content: space-between;
-    margin: 25px 0 0;
+.akcii__item img {
+    width: inherit;
+    border-radius: 12px 12px 0 0;
 }
 
-.akciatwo__info {
-    width: 45%;
+.akcii__info {
+    padding: 0 14px;
+    color: black;
 }
 
-.akciatwo__title {
-    font-size: 34px;
-    font-family: 'robotobold';
-    margin: 0;
-}
-
-.akciatwo__text {
-    margin: 0;
+.akcii__info h2 {
     font-size: 22px;
-    font-family: 'robotobold';
-    color: rgb(78, 78, 78);
 }
 
-.akciatwo__tech {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    border: 1px solid #d5d5d5;
-    box-shadow: 0px 0px 16px 0 grey;
-    padding: 16px;
-    margin: 15px 0;
-    font-size: 16px;
-    font-weight: 600;
-    width: 95%;
+.akcii__info p {
+    font-size: 17px;
 }
 
 /*------------Media----------*/
@@ -218,97 +77,16 @@ h2 {
     .container {
         margin: 180px auto 0;
     }
-
-    .akciaone__item,
-    .akciatwo__item {
-        margin: 25px 20px 0;
-    }
-
-    .akciaone__benefits {
-        margin: 68px 20px 38px;
-    }
-
-    .akciaone__img img,
-    .akciatwo__img img {
-        width: 450px;
-    }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {}
 
-    .akciaone__img img,
-    .akciatwo__img img {
-        width: 420px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-
-    .akciaone__item {
-        flex-direction: column;
-    }
-
-    .akciatwo__item {
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .akciaone__info,
-    .akciatwo__info {
-        width: 90%;
-    }
-}
+@media screen and (max-width: 960px) {}
 
 @media screen and (max-width: 768px) {
     .container {
         margin: 100px auto 0;
     }
-
-    .akciaone__info,
-    .akciatwo__info {
-        width: 100%;
-    }
-
-    .akciaone__img img,
-    .akciatwo__img img {
-        width: 400px;
-    }
-
-    .akciaone__benefits {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .benefits {
-        width: 50%;
-    }
 }
 
-@media screen and (max-width: 480px) {
-
-    .akciaone__img img,
-    .akciatwo__img img {
-        width: 320px;
-    }
-
-    .akciaone__tech {
-        flex-direction: column;
-    }
-
-    .akciatwo__tech {
-        width: auto;
-    }
-
-    .tech {
-        width: 90%;
-        margin: 0 0 32px;
-    }
-
-    .akciaone__benefits {
-        margin: 30px 20px;
-    }
-
-    .benefits p {
-        font-size: 18px;
-    }
-}
+@media screen and (max-width: 480px) {}
