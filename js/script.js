@@ -18,7 +18,7 @@ var slideShow = (function () {
       _config = {
         isAutoplay: true, // �������������� ����� �������
         directionAutoplay: 'next', // ����������� ����� �������
-        delayAutoplay: 550000, // �������� ����� �������������� ������ �������
+        delayAutoplay: 3500, // �������� ����� �������������� ������ �������
         isPauseOnHover: true // ������������� �� ����� ��� ���������� ������� � ��������
       };
 
