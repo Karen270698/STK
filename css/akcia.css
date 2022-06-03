@@ -28,10 +28,13 @@ h2 {
 
 .akcii {
     margin: 32px 0 0;
+    padding: 0 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .akcii__item {
+    position: relative;
     margin: 0 50px 0 0;
     width: 320px;
     height: 480px;
@@ -42,6 +45,12 @@ h2 {
     border-radius: 12px;
     text-align: center;
     text-decoration: none;
+}
+
+.akciaover {
+    position: absolute;
+    top: 20%;
+    transform: rotate(315deg);
 }
 
 .akcii__item:hover {
@@ -79,13 +88,26 @@ h2 {
     }
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+    .akcii {
+        justify-content: center;
+    }
+}
 
 @media screen and (max-width: 960px) {}
 
 @media screen and (max-width: 768px) {
     .container {
         margin: 100px auto 0;
+    }
+
+    .akcii {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .akcii__item {
+        margin: 0 0 38px;
     }
 }
 
